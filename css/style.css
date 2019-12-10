@@ -73,24 +73,32 @@
 /* Esercizio 1 */
 
 .ex-1-square{
-  transition: background 2s ease-in-out 1s;
+  transition: background 2s;
 }
 .ex-1-square:hover{
   background-color: red;
 }
 
 /* esercizio 2 */
+
 .ex-2-square{
-  transition: width 5s ease-in-out;
+  transition: width 3s;
 }
-.ex-2-sqaure:focus{
-  width: 400px;
+.ex-2-square:active{
+  width: 100%;
 }
 
 /* esercizio 3 */
 .ex-3-square{
-  transition: border-radius 5s ease 0s;
+  transition: border-radius 2s;
 }
 .ex-3-square:hover{
   border-radius: 50%;
+}
+/* esercizio 4 */
+.ex-4-square{
+  transition: background-color 2s;
+}
+.ex-4-square:hover{
+  background-color: rgba(0, 0, 0, 0);
 }
