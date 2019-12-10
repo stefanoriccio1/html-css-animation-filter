@@ -117,12 +117,18 @@
 .ex-6-img:hover{
   filter: grayscale(1);
 }
-
 /* esercizio 7 */
-
 .ex-7-img{
   transition: all 3s;
 }
 .ex-7-img:hover{
+  filter: sepia(0.7) sepia(0.1);
+}
+/* esercizio 8 */
+.ex-8-img{
+  transition: all 3s;
+}
+.ex-8-img:hover{
+  border-radius: 30px;
   filter: sepia(0.7) sepia(0.1);
 }
