@@ -102,3 +102,13 @@
 .ex-4-square:hover{
   background-color: rgba(0, 0, 0, 0);
 }
+  /* Esercizio 5 */
+  .ex-5-square{
+    transition: transform 3s;
+  }
+  .ex-5-square:hover{
+    transform: scale(2);
+  }
+  .ex-5-square:active{
+    transform: none;
+  }
