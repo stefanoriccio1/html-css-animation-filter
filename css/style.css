@@ -141,3 +141,19 @@
   filter: sepia(0.7) sepia(0.1);
   transform: scale(1.5);
 }
+/* esercizio 10 */
+
+.ex-10-icon{
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-name: spin;
+}
+@keyframes spin {
+  from {
+   transform:rotate(0deg);
+  }
+  to {
+    transform:rotate(360deg);
+  }
+}
