@@ -112,3 +112,14 @@
   .ex-5-square:active{
     transform: none;
   }
+  /* esercizio 6 */
+
+.ex-6-img:hover{
+  filter: grayscale(1);
+}
+
+/* esercizio 7 */
+
+.ex-7-img:hover{
+  filter: sepia(0.5);
+}
