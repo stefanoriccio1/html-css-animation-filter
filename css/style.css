@@ -157,3 +157,22 @@
     transform:rotate(360deg);
   }
 }
+
+/* esercizio 11 */
+.ex-11-icon:hover{
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-name: backspin;
+}
+@keyframes backspin {
+  from{
+    transform: rotate(0deg);
+  }
+  75%{
+    transform: rotate(280deg);
+  }
+  to{
+    transform: rotate(0deg);
+  }
+
+}
