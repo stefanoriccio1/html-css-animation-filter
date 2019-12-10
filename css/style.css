@@ -215,19 +215,24 @@
 /* esercizio 13 */
 
 .ex-13-button:hover .ex-13-top-white{
-  animation-name: moving_top_13;
-  animation-duration: 4s;
+  animation-name: moving_thirteen;
+  animation-duration: 2s;
   animation-timing-function:linear;
 }
 .ex-13-button:hover .ex-13-bottom-white{
-  animation-name: moving_bottom_13;
+  animation-name: moving_thirteen_bottom;
   animation-duration: 4s;
   animation-timing-function: linear;
 }
 
-@keyframes moving_top_13 {
-
-}
-@keyframes moving_bottom_13 {
-
+@keyframes moving_thirteen {
+  from{
+    left: 10%;
+  }
+  50%{
+    left: 65%;
+  }
+  to{
+    left: 10%;
+  }
 }
