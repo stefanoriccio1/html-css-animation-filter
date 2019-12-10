@@ -73,8 +73,24 @@
 /* Esercizio 1 */
 
 .ex-1-square{
-  transition: background 5s;
+  transition: background 2s ease-in-out 1s;
 }
 .ex-1-square:hover{
   background-color: red;
+}
+
+/* esercizio 2 */
+.ex-2-square{
+  transition: width 5s ease-in-out;
+}
+.ex-2-sqaure:focus{
+  width: 400px;
+}
+
+/* esercizio 3 */
+.ex-3-square{
+  transition: border-radius 5s ease 0s;
+}
+.ex-3-square:hover{
+  border-radius: 50%;
 }
