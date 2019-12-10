@@ -160,9 +160,9 @@
 
 /* esercizio 11 */
 .ex-11-icon:hover{
+  animation-name: backspin;
   animation-duration: 2s;
   animation-iteration-count: 1;
-  animation-name: backspin;
 }
 @keyframes backspin {
   from{
@@ -175,4 +175,25 @@
     transform: rotate(0deg);
   }
 
+}
+/* esercizio 12 */
+.ex-12-button:hover .ex-12-top-white{
+  animation-name: moving_top;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+.ex-12-bottom-white:hover{
+  animation-name: moving_bottom;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+@@keyframes moving_top {
+  from{
+    left: 10%;
+  }
+  to{
+    
+    left: 25%;
+  }
 }
