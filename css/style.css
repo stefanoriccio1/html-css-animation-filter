@@ -120,6 +120,9 @@
 
 /* esercizio 7 */
 
+.ex-7-img{
+  transition: all 3s;
+}
 .ex-7-img:hover{
-  filter: sepia(0.5);
+  filter: sepia(0.7) sepia(0.1);
 }
