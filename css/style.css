@@ -179,23 +179,35 @@
 /* esercizio 12 */
 .ex-12-button:hover .ex-12-top-white{
   animation-name: moving_top;
-  animation-duration: 3s;
+  animation-duration: 2s;
   animation-timing-function: linear;
 }
-/* .ex-12-bottom-white:hover .ex-12-bottom-white{
+.ex-12-button:hover .ex-12-bottom-white{
   animation-name: moving_bottom;
   animation-duration: 2s;
-  animation-iteration-count: 1;
-} */
+  animation-timing-function: linear;
+}
 
-@@keyframes moving_top {
+@keyframes moving_top {
   from{
     left: 10%;
   }
   50%{
-    left: 30%;
+    left: 65%;
   }
   to{
     left: 10%;
+  }
+}
+@keyframes moving_bottom {
+  from{
+    right: 20%;
+  }
+  50%{
+    right: 65%;
+  }
+  to{
+    right: 20%;
+  }
   }
 }
