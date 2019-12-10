@@ -211,3 +211,23 @@
   }
   }
 }
+
+/* esercizio 13 */
+
+.ex-13-button:hover .ex-13-top-white{
+  animation-name: moving_top_13;
+  animation-duration: 4s;
+  animation-timing-function:linear;
+}
+.ex-13-button:hover .ex-13-bottom-white{
+  animation-name: moving_bottom_13;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+}
+
+@keyframes moving_top_13 {
+
+}
+@keyframes moving_bottom_13 {
+
+}
